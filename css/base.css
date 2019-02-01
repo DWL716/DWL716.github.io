@@ -19,3 +19,14 @@ a {
     color: aliceblue;
 
 }
+
+.copyright {
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid white;
+    width: 80%;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+}
