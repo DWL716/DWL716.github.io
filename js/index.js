@@ -14,11 +14,13 @@
         odiv.style.display = "none";
       }
     }
-   
+   console.log(22)
       var tops = document.getElementById("top");
-      window.onscroll = function(){
+      onscroll = function(){
           var topScrollbar = document.documentElement.scrollTop;
-          if(topScrollbar > 30) {
+          var safair = window.pageYOffset;
+          console.log(safair)
+          if(topScrollbar > 30 || safair > 30) {
             tops.style.bottom = "15%"
           }else{
             tops.style.bottom = "-5%"

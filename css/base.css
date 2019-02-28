@@ -33,9 +33,11 @@ a {
 }
 
 .top {
+    -webkit-transition:all 0.5s ease 0s; 
     transition: all 0.5s ease 0s;
+    
     text-align: center;
-    background-color: black;
+    background-color: red;
     color: bisque;
     font-size: 13px;
     position: fixed;

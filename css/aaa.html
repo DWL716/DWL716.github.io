@@ -1,0 +1,587 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .masonry { 
+                height: 800px;
+                display: flex; 
+                flex-flow: column wrap;
+                width: 80%;
+                margin:2em auto;
+            }
+            .item { 
+                padding: 2em;
+                margin-bottom: 2em;
+                -moz-page-break-inside: avoid;
+                -webkit-column-break-inside: avoid;
+                
+                background: #f60;
+            }
+
+            @media screen and (max-width: 1100px) { 
+                .masonry { 
+                    height: 800px; 
+                } 
+            }
+            @media screen and (max-width: 800px) {
+                .masonry { 
+                    height: 1100px; 
+                } 
+            } 
+            @media screen and (max-width: 600px) { 
+                .masonry { 
+                    height: 1300px; 
+                } 
+            } 
+            @media screen and (max-width: 460px) { 
+                .masonry { 
+                    height: 1600px;
+                } 
+            }
+            
+            table {
+                border-collapse: collapse;
+                
+            }
+            tr {
+                border: goldenrod;
+                width: 20px;
+            }
+            
+            .masonry :before {
+                content: "\F124";
+                box-sizing: border-box;
+            }
+    </style>
+</head>
+<body>
+    <video controls autoplay src="http://player.youku.com/embed/XMzk5MTU4OTM3Mg=="></video>
+    <table border="1" align="center">
+        <caption>标题</caption>
+        <tr colspan="2">
+            <td rowspan="2" width="25px">邓</td>
+            <td>文</td>
+            <td>龙</td>
+        </tr>
+        <tr>
+            <td>文</td>
+            <td>虎</td>
+        </tr>
+        <tr>
+            <th colspan="2" rowspan="2">杨</th>
+            <th>小</th>
+        </tr>
+        <tr>
+            <th>侠</th>
+        </tr>
+    </table>
+        <div class="masonry"> 
+                <div class="item"> 
+                    <div class="item_content content-lar"> 1
+                    </div> 
+                </div> 
+                <div class="item"> 
+                    <div class="item_content content-sma"> 2
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-mid"> 3
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-sma"> 4
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-mid"> 5
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-lar"> 6
+                    </div> 
+                </div> 
+                <div class="item"> 
+                    <div class="item_content content-sma"> 7
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-lar"> 8
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-lar"> 9
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-sma"> 10
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-mid"> 11
+                    </div> 
+                </div>
+                <div class="item"> 
+                    <div class="item_content content-mid"> 12
+                    </div> 
+                </div>
+                 more items 
+            </div>
+            <script>
+                
+            </script>
+</body>
+</html>
+ -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        p {
+            
+            text-align: center;
+        }
+
+        .ul12 {
+            display: none;
+        }
+        .aside2 {
+            background:black;
+            width: 200px;
+            
+        }
+
+        .aside2 > li {
+            width: 150px;
+            height: 25px;
+        }
+        a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(170, 97, 9);
+            text-decoration: rgb(64, 13, 204) underline;
+        }
+    </style>
+</head>
+<body>
+        <div>
+                <ul class="aside1">
+                    <li>
+                        <h2>旅行笔记</h2>
+                       <p>Email : 1239787435@qq.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="aside2">
+                    <li class="asiden" id="asiden">
+                        <a href="#"><p>旅行篇</p></a> 
+                           
+                            <li><p><a href="#">照片</a></p></li>
+                            <li><p><a href="#">视频</a></p></li>
+                       
+                    </li>
+                    <li><a href="#"><p>前端篇</p></a></li>
+                    <li><a href="#"><p>日记篇</p></a></li>
+                    <li><a href="#"><p>生活篇</p></a></li>
+                    <li><a href="#"><p>记录篇</p></a></li>
+                    <li><a href="#"><p>杂志篇</p></a></li>
+                </ul>
+            </div>
+</body>
+</html> 
+ -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>点击一个按钮隐藏和显示div</title>
+<style type="text/css">
+#thediv{
+  width:200px;
+  height:50px;
+  background:#ccc;
+}
+</style>
+<script type="text/javascript">
+window.onload=function(){
+  var obt=document.getElementById("bt");
+  var odiv=document.getElementById("thediv");
+  obt.onclick=function(){
+    if(odiv.style.display=="none"){
+      odiv.style.display="block";
+      obt.value="隐藏模块";
+    }
+    else{
+      odiv.style.display="none";
+      obt.value="显示模块";
+    }
+  }
+}
+</script>
+<body>
+<ul id="bt" value=""><a href="">显示模块</a>
+    </ul>
+<div id="thediv" style="display:none"></div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            position: relative;
+            padding: 50px;
+            font-size: 24px;
+            line-height: 30px;
+            background-image: linear-gradient(to right top, #ffcc00 50%, #eee 50%);
+            background-size: 100% calc(100% - 100vh + 5px);
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+        body::after {
+            content: "";
+            position: fixed;
+            top: 5px;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: #fff;
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 32px;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>纯CSS进度条</h1>
+    <p>在chrome的开发者工具中，通过断点调试，我们能够非常方便的一步一步的观察JavaScript的执行过程，直观感知函数调用栈，作用域链，变量对象，闭包，this等关键信息的变化。因此，断点调试对于快速定位代码错误，快速了解代码的执行过程有着非常重要的作用，这也是我们前端开发者必不可少的一个高级技能。</p>
+    <p>当然如果你对JavaScript的这些基础概念（执行上下文，变量对象，闭包，this等）了解还不够的话，想要透彻掌握断点调试可能会有一些困难。但是好在在前面几篇文章，我都对这些概念进行了详细的概述，因此要掌握这个技能，对大家来说，应该是比较轻松的。</p>
+    <p>函数在被调用执行时，会创建一个当前函数的执行上下文。在该执行上下文的创建阶段，变量对象、作用域链、闭包、this指向会分别被确定。而一个JavaScript程序中一般来说会有多个函数，JavaScript引擎使用函数调用栈来管理这些函数的调用顺序。函数调用栈的调用顺序与栈数据结构一</p>
+
+        作者：这波能反杀
+        链接：https://www.jianshu.com/p/73122bb3d262
+        來源：简书
+        简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p>
+        <p>在我的demo中，我把代码放在app.js中，在index.html中引入。我们暂时只需要关注截图中红色箭头的地方。在最右侧上方，有一排图标。我们可以通过使用他们来控制函数的执行顺序。从左到右他们依次是：</p><p>在chrome的开发者工具中，通过断点调试，我们能够非常方便的一步一步的观察JavaScript的执行过程，直观感知函数调用栈，作用域链，变量对象，闭包，this等关键信息的变化。因此，断点调试对于快速定位代码错误，快速了解代码的执行过程有着非常重要的作用，这也是我们前端开发者必不可少的一个高级技能。</p>
+        <p>当然如果你对JavaScript的这些基础概念（执行上下文，变量对象，闭包，this等）了解还不够的话，想要透彻掌握断点调试可能会有一些困难。但是好在在前面几篇文章，我都对这些概念进行了详细的概述，因此要掌握这个技能，对大家来说，应该是比较轻松的。</p>
+        <p>函数在被调用执行时，会创建一个当前函数的执行上下文。在该执行上下文的创建阶段，变量对象、作用域链、闭包、this指向会分别被确定。而一个JavaScript程序中一般来说会有多个函数，JavaScript引擎使用函数调用栈来管理这些函数的调用顺序。函数调用栈的调用顺序与栈数据结构一</p>
+        <ul>
+            <li>1.resume/pause script execution
+                恢复/暂停脚本执行</li>
+            <li>2.resume/pause script execution
+                恢复/暂停脚本执行</li>
+            <li>3.resume/pause script execution
+                恢复/暂停脚本执行</li>
+            <li>4.resume/pause script execution
+                恢复/暂停脚本执行</li>
+        </ul>
+        <p>上图右侧第二个红色箭头指向的是函数调用栈（call Stack），这里会显示代码执行过程中，调用栈的变化。</p>
+        <p>右侧第三个红色箭头指向的是作用域链（Scope），这里会显示当前函数的作用域链。其中Local表示当前的局部变量对象，Closure表示当前作用域链中的闭包。借助此处的作用域链展示，我们可以很直观的判断出一个例子中，到底谁是闭包，对于闭包的深入了解具有非常重要的帮助作用。</p>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video"> 
+
+        　　<div class="youkuvideo"> f 
+        
+        　　<div id="video_frame" class="video_cover" style="background-image: url('/images/video.jpg');"> 
+        
+        　　<i class="video-play" aria-hidden="true"></i> 
+        
+        　　</div> 
+        
+        　　</div> 
+        
+        　　</div> 
+        
+        　　<script type="text/javascript"> 
+        
+        　　$('#videoFrame').click(function(){ /* http://player.youku.com/player.php/sid/XNDAxOTAyNjA4NA==/v.swfhttp://player.youku.com/player.php/sid/XNDAxOTAyNjA4NA==/v.swf */
+        
+        　　$video = $('<object class="youkuvideo" data="http://player.youku.com/player.php/sid/XNDAxOTAyNjA4NA==/v.swfhttp://player.youku.com/player.php/sid/XNDAxOTAyNjA4NA==/v.swf" type="application/x-shockwave-flash" width="100%" height="600"><param name="wmode" value="transparent" /><param name="wmode" value="opaque" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="isAutoPlay" value="true" /><param name="flashvars" value="VideoIDS=XMzQzMTI5MjU3Ng==&amp;isShowRelatedVideo=false&amp;showAd=0&amp;show_pre=0&amp;show_next=0&amp;isAutoPlay=true&amp;isDebug=false&amp;UserID=0&amp;winType=interior&amp;playMovie=true&amp;MMControl=false&amp;MMout=false" /><param name="movie" value="http://player.youku.com/player.php/sid/v.swf" /></object>'); 
+        
+        　　$(this).after($video); 
+        
+        　　$(this).remove(); 
+        
+        　　}) 
+        
+        　　</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dom孩子们</title>
+    <style>
+       /*  progress {
+            height: 10px;
+            width: 400px;
+            border: 1px solid green;
+            border-radius: 5px;
+            background: blue;
+        } */
+        input {
+            display:block;
+        }
+        .color1 {
+            margin: 0;
+            overflow: hidden;
+           display: inline-block;
+           width: 60px;
+           height: 60px;
+           padding: 0px; 
+           border: 1px solid red;
+            border-radius: 50%; 
+           background: red;
+        }
+    </style>
+</head>
+<body>
+    <figure>
+            <progress max="100" value="80"></progress>
+    </figure>
+
+    <form action="">
+        <input type="number" max="120" min="1" value="30" />
+        <input type="email" />
+        <input type="color"  id="color" />
+       
+        <input type="text" list="country" />
+        <input type="text" placeholder="请输入">
+        <datalist id="country">
+            <option value="中欧">中欧</option>
+            <option value="美欧">美欧</option>
+        </datalist>
+    </form>
+    <ul id="ul">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+    <script>
+        /* var ul = document.getElementById("ul");
+        console.log(ul);
+        var item = ul.children;
+        console.log(item[0].innerHTML) */
+        
+        /* var color = document.getElementById("color");
+        color.onchange = function() {
+            document.body.style.background = this.value;
+        } */
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       div {
+           width: 60px;
+           height: 60px;
+           background-color: orange;
+           position: absolute;
+           top: 100px;
+           left: 100px;
+           transition: all 4s linear 0s;
+       }
+
+       .haha {
+           left: 900px;
+       }
+
+       input {
+           width: 500px;
+           outline-style: none;
+           outline-color: burlywood;
+           margin: 0;
+           padding: 0;
+           border: 0;
+       }
+    </style>
+</head>
+<body>
+    <del>aaa爽肤水共商国是的根深蒂固a</del>
+    <input type="text" placeholder="请输入">
+    <div>1</div>
+    <script>
+        //var str = prompt("I'm is Dengwenlong")
+        alert(str);
+        var box = document.getElementsByTagName("div")[0];
+        box.onclick = function() {
+            box.className = "haha"
+            console.log(111)
+        }
+
+
+      
+        function number1(a) {
+                 var num = number2(a);
+                 if(num == 2){
+                     return true;
+                 }else{
+                     return false;
+                 }
+        }
+
+        function number2(a) {
+            var cont = 0;
+            for(var i=1; i<=a; i++) {
+                if(a%i == 0) {
+                    cont++;
+                }
+            }
+            return cont;
+        }
+        for(var i=2; i<=100; i++) {
+               if(number1(i)){
+                   console.log(i)
+               }
+        }
+        
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            float: left;
+            background: skyblue;
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        
+        var divs = document.getElementsByTagName("div");
+        for(var i=0; i<divs.length; i++) {
+            divs[i].index = i
+                
+            
+                divs[i].onclick = function() {console.log(this.index)
+                    var aa = this.style.backgroundColor
+                    //console.log(divs[i].style.backgroundColor)
+
+                    if( aa == "skyblue") {
+                        divs[this.index].style.backgroundColor = "red";
+                        console.log(11)
+                    }else {
+                        divs[this.index].style.backgroundColor = "skyblue"
+                        console.log(22)
+                    }
+                }
+           
+            
+        } 
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<a href="http://www.w3school.com.cn/html/" accesskey="2">HTML 教程</a><br />
+<div accesskey="1" tabindex="0" onClick="this.style.color='red';">测试1</div>
+<a href="http://www.w3school.com.cn/css/" accesskey="c">CSS 教程</a>
+<div class="dw">aaa爽肤水共商国是的根深蒂固a</div>
+
+<p><b>注释：</b>请使用Alt + <i>accessKey</i> (或者 Shift + Alt + <i>accessKey</i>) 来访问带有指定快捷键的元素。</p>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>aaa爽肤水共商国a</div>
+</body>
+</html>
