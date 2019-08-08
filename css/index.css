@@ -11,7 +11,7 @@ nav {
     width: 100%;
     height: 40px;
     line-height: 40px;
-    background: rgb(37, 37, 36);
+    background: rgb(131, 156, 211);
 }
 /*=======================================*/
 .aside{
@@ -21,22 +21,24 @@ nav {
     height: 580px;
     text-align: center;
     font-size: 15px;
-    background: #000;
+    background: rgba(65, 187, 171, 0.767);
 }
 
 .aside1 li {
     font-size: 13px;
     height: 80px;
     line-height: 40px;
-    background: gray;
+    background: rgb(56, 88, 117);
+    white-space: nowrap;
+    overflow: auto;
 }
 
 .aside2 > li{
-    background: gray;
+    background: rgb(55, 134, 59);
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
-    border: 10px solid gray;
+    border: 10px solid rgb(55, 134, 59);
     border-radius: 4px;
 }
 
@@ -88,7 +90,7 @@ nav {
     width: 60%;
     display:inline-block;
     margin-top: 50px;
-    background: #000;
+    background: rgba(156, 179, 71, 0.753);
     z-index: -1;
 }
 
