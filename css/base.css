@@ -33,12 +33,12 @@ a {
 }
 
 .top {
-    -webkit-transition:all 0.5s ease 0s; 
-    transition: all 0.5s ease 0s;
+    -webkit-transition:all 1s ease 0s; 
+    transition: all 1s ease 0s;
     
     text-align: center;
-    background-color: red;
-    color: bisque;
+    background-color: rgb(211, 210, 210);
+    color: #ffffff;
     font-size: 13px;
     position: fixed;
     width: 40px;
@@ -50,3 +50,9 @@ a {
     right: 3%;
 }
 
+.top a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
